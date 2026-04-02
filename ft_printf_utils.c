@@ -1,21 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_printf_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/01 22:57:33 by fananrak          #+#    #+#             */
-/*   Updated: 2026/04/02 07:14:42 by fananrak         ###   ########.fr       */
+/*   Created: 2026/04/02 06:36:42 by fananrak          #+#    #+#             */
+/*   Updated: 2026/04/02 06:36:42 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
-
-# include <stdarg.h>
-# include <unistd.h>
-
-int ft_printf(const char *format, ...);
-
-#endif
