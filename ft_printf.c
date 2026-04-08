@@ -6,14 +6,16 @@
 /*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 23:07:41 by fananrak          #+#    #+#             */
-/*   Updated: 2026/04/02 07:51:39 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/04/08 08:39:42 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
 static int  conversion_handling(char c, va_list arglist)
-{}
+{
+
+}
 
 int ft_printf(const char *format, ...)
 {

@@ -6,7 +6,7 @@
 #    By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/17 14:16:27 by fananrak          #+#    #+#              #
-#    Updated: 2026/02/17 14:18:10 by fananrak         ###   ########.fr        #
+#    Updated: 2026/04/08 08:40:04 by fananrak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libftprintf.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = 
+SRC = ft_printf.c ft_printf_utils.c
 
 
 OBJ = $(SRC:.c=.o)
