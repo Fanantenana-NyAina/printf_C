@@ -6,7 +6,7 @@
 /*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 22:57:33 by fananrak          #+#    #+#             */
-/*   Updated: 2026/04/02 07:14:42 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/04/10 08:32:40 by fananrak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,8 @@
 # include <unistd.h>
 
 int ft_printf(const char *format, ...);
+void    ft_putchar(char ch);
+void    ft_putstr(char *str);
+void    ft_putnbr(char *str);
 
 #endif
