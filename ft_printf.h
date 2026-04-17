@@ -6,7 +6,7 @@
 /*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 22:57:33 by fananrak          #+#    #+#             */
-/*   Updated: 2026/04/17 04:30:23 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/04/17 05:33:15 by fanantenana      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int ft_putchar(char ch);
 int ft_putstr(char *str);
 int ft_putnbr(int n);
 int ft_putunsigned(unsigned int n);
-int ft_puthex(unsigned int n, int upper);
-int ft_putptr(void *ptr);
+int ft_puthex(unsigned long n, int upper);
+int ft_putpointer(void *ptr);
 
 #endif

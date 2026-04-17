@@ -6,11 +6,13 @@
 /*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 04:31:54 by fanantenana       #+#    #+#             */
-/*   Updated: 2026/04/17 04:32:04 by fanantenana      ###   ########.fr       */
+/*   Updated: 2026/04/17 05:32:03 by fanantenana      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_puthex(unsigned int n, int upper)
+#include "ft_printf.h"
+
+int ft_puthex(unsigned long n, int upper)
 {
     char    *base;
     int     count;
