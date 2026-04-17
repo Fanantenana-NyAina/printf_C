@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+         #
+#    By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/17 14:16:27 by fananrak          #+#    #+#              #
-#    Updated: 2026/04/08 08:40:04 by fananrak         ###   ########.fr        #
+#    Updated: 2026/04/17 04:54:58 by fanantenana      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libftprintf.a
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = ft_printf.c ft_printf_utils.c
+SRC = ft_printf.c ft_printf_utils.c ft_puthex.c
 
 
 OBJ = $(SRC:.c=.o)

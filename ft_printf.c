@@ -3,31 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fananrak <fananrak@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fanantenana <fanantenana@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 23:07:41 by fananrak          #+#    #+#             */
-/*   Updated: 2026/04/10 08:44:16 by fananrak         ###   ########.fr       */
+/*   Updated: 2026/04/17 04:26:34 by fanantenana      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int  conversion_handling(char c, va_list arglist)
+static int  conversion_handling(char c, va_list args)
 {
     if (c == 'c')
-    {
-        ft_putchar(c);
-    }
+        return (ft_putchar(va_arg(args, int)));
     else if (c == 's')
-    {
-        ft_putstr(c);
-    } else if (c == 'd'|| c == 'i')
-    {
-        ft_putnbr(c);
-    }
-    
-    
-    
+        return (ft_putstr(va_arg(args, char *)));
+    else if (c == 'd' || c == 'i')
+        return (ft_putnbr(va_arg(args, int)));
+    else if (c == '%')
+        return (ft_putchar('%'));
+    return (0);
 }
 
 int ft_printf(const char *format, ...)
